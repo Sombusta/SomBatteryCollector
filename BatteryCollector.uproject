@@ -1,7 +1,17 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "4.22",
-	"Category": "",
-	"Description": "",
-	"Enterprise": true
+  "FileVersion": 3,
+  "EngineAssociation": "4.22",
+  "Category": "",
+  "Description": "Copyright (c) 2014-2019 Sombusta, All Rights Reserved.",
+  "Enterprise": true,
+  "Modules": [
+    {
+      "Name": "BatteryCollector",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine"
+      ]
+    }
+  ]
 }
